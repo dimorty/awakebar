@@ -1,0 +1,18 @@
+.idea
+.DS_Store
+DerivedData/
+.build/
+.derived/
+awakebar/release/
+*.xcuserstate
+*.xcuserdata/
+build/
+*.xcarchive
+
+# SwiftPM
+.swiftpm/
+
+# Archives & exports
+*.dmg
+*.zip
+scripts/release.sh

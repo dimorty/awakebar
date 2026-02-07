@@ -1,17 +1,23 @@
-//
-//  awakebarApp.swift
-//  awakebar
-//
-//  Created by Dmitry Verkhov on 07.02.2026.
-//
-
 import SwiftUI
 
 @main
-struct awakebarApp: App {
+struct AwakeBarApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            EmptyView()
         }
+    }
+}
+
+final class AppDelegate: NSObject, NSApplicationDelegate {
+    private var menuBarController: MenuBarController?
+    private let jiggler = MouseJiggler()
+    
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        menuBarController = MenuBarController(jiggler: jiggler)
+        
+        NSApp.setActivationPolicy(.accessory)
     }
 }
