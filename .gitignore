@@ -3,7 +3,7 @@
 DerivedData/
 .build/
 .derived/
-awakebar/release/
+release/
 *.xcuserstate
 *.xcuserdata/
 build/
