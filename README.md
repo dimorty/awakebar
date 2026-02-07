@@ -1,5 +1,10 @@
 # AwakeBar
 
+[![Latest Release](https://img.shields.io/github/v/release/dimorty/awakebar)](https://github.com/dimorty/awakebar/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/dimorty/awakebar/total)](https://github.com/dimorty/awakebar/releases/latest)
+
+⬇️ Download: https://github.com/dimorty/awakebar/releases/latest
+
 A tiny macOS menu bar utility that gently “jiggles” the mouse cursor at a chosen interval.
 
 ## Features
