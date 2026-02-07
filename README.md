@@ -34,3 +34,12 @@ A tiny macOS menu bar utility that gently “jiggles” the mouse cursor at a ch
     - Interval (seconds)
     - Delta (pixels)
 - Optional: Start at login
+
+## 💖 Support AwakeBar
+
+If you find AwakeBar useful and want to support development:
+
+### TON
+**Address:** `UQBJLSp3TE-2cpOJ7tVfyhQ1tputM86ENkIO3Dw3pstUmrI9`
+
+Thanks! 🙏
